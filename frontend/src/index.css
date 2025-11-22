@@ -1,0 +1,20 @@
+/* simple global styles */
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+
+/* background image */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148703851.jpg?semt=ais_hybrid&w=740&q=80");
+  background-size: cover;        /* full screen */
+  background-repeat: no-repeat;  /* no repeat */
+  background-position: center;   /* centered */
+  background-attachment: fixed;  /* stays fixed while scrolling */
+  font-family: sans-serif;
+}
