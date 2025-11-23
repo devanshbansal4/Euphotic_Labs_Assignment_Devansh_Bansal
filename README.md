@@ -22,9 +22,12 @@ Steps to run ::
 To see the dynamic nature of the webpage :: 
 1) Make the changes using the backend by opening the terminal inside backend directory.
 2) Use commands ::
-      sqlite3 dishes.db
-      If the status is Published, use query :: Update dishes set isPublished=0 where dishId=2
-      Else :: Update dishes set isPublished=1 where dishId=2
+      sqlite3 dishes.db,
+   
+      If the status is Published, use query :: Update dishes set isPublished=0 where dishId=2,
+   
+      Else :: Update dishes set isPublished=1 where dishId=2,
+   
    You will see that the status on the dashboard changes automatically, because the page is dynamic.
 
 
