@@ -6,11 +6,11 @@ Its been uploaded within its virtual environment, so its ready to be run.
 Steps to run :: 
 
 1) In the root folder run these commands in the terminal ::
-    cd backend
+    cd backend,
     npm start
 
 2) In the root folder then run these ::
-     cd frontend
+     cd frontend,
      npm start
 
 3) The dashboard should run smoothly.
